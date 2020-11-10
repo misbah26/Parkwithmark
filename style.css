@@ -1,0 +1,241 @@
+div.background {
+    background: url(../../newProject/home.jpg);
+	background-repeat: no-repeat;
+    border: 1px solid black;
+    background-size: cover;     
+  }
+  
+#color {
+  background-color: black;
+}
+
+  p {
+    
+    background-color: black;
+  }
+   .typewriter h1 {
+    margin: 24%;
+    font-weight: bold;
+    color: #Black;
+	background-color:white;
+	font-size: 44px;
+    text-align: center;
+	
+  }
+
+  .navbar {
+      background-color: #F9D342 !important;
+      font-weight: bold;
+	  font-size: 25px;    
+  }
+  .nav-link:hover {
+    background-color: black;
+    color: #F9D342 !important;
+  }
+
+  .typewriter h1 {
+    width: 24ch;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+   /* margin: 0 auto;  Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    text-align: center;
+    animation: 
+      typing 3s steps(24, end),
+      blink-caret .45s  step-end infinite;    
+     }
+     
+  /* The typing effect */
+  @keyframes typing {
+    0% { width: 0ch }
+    100% { width: 24ch }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  img{
+   width: 30%;
+   height: 40%;
+   margin: 10%;
+   align: left;
+  }
+  
+     
+  .burger   {
+    background: url(burger.jpg) no-repeat;
+    background-size: cover; 
+  }
+  .pizza   {
+    background: url(piz.jpg) no-repeat;
+    background-size: cover; 
+  }
+  .drinks   {
+    background: url(drink.jpg) no-repeat;
+    background-size: cover; 
+  }
+  button {
+    background-color:  rgb(243, 223, 142);
+    color: black;
+  }
+  button:hover {
+    background-color: #caab30;
+    color: black;
+    font-weight: bold;
+  }
+  .burger h1, .pizza h1, .drinks h1 {
+    padding: 20%;
+    padding-top: 19%
+    padding-bottom: 25%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F9D342;
+    padding-left: 65%;
+    font-size: 45px;
+  }
+  
+  .burger li, .pizza li, .drinks li {
+    color: white;
+    font-size: 20px;
+    padding-left: -12%; 
+  }
+  ul.list{
+    list-style-type: none;
+  }
+
+  .back {
+    background: url(https://img.freepik.com/foto-gratuito/triangolare-pezzo-di-pizza-al-forno-con-funghi-salsicce-affumicate-pomodori-e-formaggio_116441-8026.jpg?size=626&ext.jpg) no-repeat;
+    background-size: cover;
+    padding: 24%;
+    
+     }
+    .container {
+     background-color: #F9D342;
+    }
+ 
+    #mybutton {
+      text-align: center;
+    }
+    .btn {
+      background-color: black;
+      color: #F9D342;
+    }
+    .btn:hover {
+      background-color: rgb(243, 223, 142);
+      color: black;
+      font-weight: bold;
+    }
+  @media only screen and (max-width: 1200px){
+    .burger h1, .pizza h1, .drinks h1 {
+      font-size: 24px;  
+    }
+    .burger li, .pizza li, .drinks li {
+      font-size: 12px;
+    }
+    .typewriter h1{
+      font-size: 18px;
+    }
+  }
+  
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_9,
+.grid_12 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .grid_9 {
+	width:700px;
+}
+.container_12 .grid_12 {
+	width:940px;
+}
+
+footer, header, nav {display:block}
+
+/* Global properties ======================================================== */
+html {width:100%}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#262626;min-width:980px;background:#fff}
+/*********************************header*************************************/
+header {width:100%;position:relative;z-index:2}
+.row-1 {width:100%;height:71px;background:url(../images/row1-top-tail.gif) left top repeat-x}
+.row-2 {width:100%;min-height:101px;background:url(../images/row2-tail.gif) left top repeat-x #fff}
+h1 {padding:15px 0 0 0;position:relative;font-weight:normal;text-transform:uppercase;margin-left:-4px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+	h1 span {display:inline-block;	font-size:28px;	line-height:1.2em;	color:#949494;	letter-spacing:-1px;	padding:29px 0 0 4px}
+.logo {display:inline-block;font-size:60px;line-height:1.2em;;color:#262626;cursor:pointer;letter-spacing:-3px}
+	.logo strong {color:#ff9601; font-weight:normal}
+.menu {padding:0;width:100%}
+.menu li {float:left;position:relative}
+	.menu li:first-child {background:url(../images/menu-a-tail.gif) 0 -71px no-repeat}
+.menu li a {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;display:block;width:188px;font-size:21px;line-height:1.238em;padding:21px 0 24px 0;color:#262626;text-align:center;text-transform:uppercase;background:url(../images/menu-a-tail.gif) right -71px no-repeat;letter-spacing:-1px}
+.menu li a:hover {color:#fff;background-position:left top;background-repeat:repeat-x;background-color:#000}
+
+/*********************************content*************************************/
+#content {width:100%;padding:0;position:relative;z-index:1}
+.gallery {padding:20px 0 26px 20px;background:#fff;box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.70)}
+.padding {padding:30px 0px 38px}
+/* -- gallery  begin --*/
+ div.content {/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;width: 620px;height: 403px;margin:  0;padding: 0px;float: left;overflow: hidden}
+ div.content img {position: relative;z-index: 2}
+ div.content a, div.navigation a {text-decoration: none;display:block;position:relative;cursor:pointer}
+	div.content a img, div.navigation a img {position:relative;	z-index:1}
+	div.content a span, div.navigation a span {display:block;	width:140px;	height:121px;	background:#000;	position:absolute;	left:0;	top:0;	z-index:2}
+	div.content a span.selected,
+	div.navigation a span.selected {display:none !important}
+ div.content a:focus, div.content a:hover, div.content a:active {text-decoration: underline}
+ div.slideshow-container {position: relative;height: 403px; /* This should be set to be at least the height of the largest image in the slideshow */z-index:1}
+ div.loader {position: absolute;top: 0;left: 0;background-image:url(images/loader.gif);background-repeat: no-repeat;background-position: center;width: 592px;height: 470px; /* This should be set to be at least the height of the largest image in the slideshow */}
+ 
+ div#thumbs {width: 320px;height:403px;overflow: hidden;padding: 0px 0px 0 0}
+ ul.thumbs {float: left;margin-left:0;padding: 0;width:auto;height:auto;overflow:visible}
+ ul.thumbs li {height: 121px;float:left;margin: 0 20px 20px 0;overflow: hidden;padding: 0;vertical-align:top}
+ ul.thumbs li img {border: none}
+ a.thumb:focus {outline: none}
+ /* -- gallery end --*/
+h3 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:36px;line-height:1.2em;margin:0 0 22px 0;color:#262626;font-weight:normal;letter-spacing:-2px}
+.title {display:inline-block;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:49px;line-height:71px;text-transform:uppercase;letter-spacing:-3px;color:#ff9601;padding:0 25px 0 0;background:url(../images/pic-2.gif) right 0 repeat-y}
+	.title.t2 {font-size:60px;	line-height:1.3em;	padding:0 40px 0 0;	background:url(../images/pic-3.gif) right 0 no-repeat}
+.box {width:100%;background:#fff;box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.70)}
+
+
+.button {display:inline-block;padding:10px 20px 11px;color:#fff;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:18px;line-height:1.22em;background:url(../images/button-tail.gif) 0 0 repeat-x #000;text-transform:uppercase;letter-spacing:-1px}	
+.button:hover {background:#ff9601}
+.link:hover {text-decoration:underline} 
+.link-1 {display:inline-block;font-size:14px;padding-right:8px;background:url(../images/marker-3.gif) right 8px no-repeat}
+.link-1:hover {color:#fff} 
+dl span {float:left; width:93px}
+dl strong {float:left; width:80px; font-weight:normal}
+
+/***** Contact form *****/
+#contact-form {display:block}
+#contact-form label {display:block;height:80px;overflow:hidden}
+#contact-form input {float:left;width:406px;font-size:13px;line-height:1.23em;color:#262626;padding:6px 10px;margin:0;font-family:Arial, Helvetica, sans-serif;border:1px solid #d9d9d9;background:#fcfcfc;outline:none}
+#contact-form textarea {float:left;height:192px;overflow:auto;width:776px;font-size:13px;line-height:1.23em;color:#404040;padding:6px 10px;margin:0;font-family:Arial, Helvetica, sans-serif;border:1px solid #d9d9d9;background:#fcfcfc;outline:none}
+.text-form {float:left;display:block;font-size:15px;line-height:1.23em;width:100px;color:#262626;font-family:Arial, Helvetica, sans-serif;padding-top:3px}
+.text-form2 {float:right; margin-right:15%; display:block;font-size:15px;line-height:1.23em;width:150px;color:#262626;font-family:Arial, Helvetica, sans-serif;padding-top:3px}
+.text-form3 {float:left; text-align:center; display:block;font-size:15px;line-height:1.23em;width:145px;color:#262626;font-family:Arial, Helvetica, sans-serif;padding-top:3px}
+
+.buttons {padding:18px 30px 0 0; text-align:right}
+.buttons a {margin-left:10px; padding:10px 42px 11px}
+/****************************footer************************/
+footer {width:100%;padding:40px 0 33px;background:url(../images/footer-tail.gif) center top repeat-x #fff}
+.phone-numb {display:inline-block;font-size:42px;line-height:1.2em;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;letter-spacing:-1px;margin-top:-4px}
+	.phone-numb span {display:inline-block;	font-size:28px;	color:#949494;	padding-top:3px}

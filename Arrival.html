@@ -1,0 +1,107 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style3.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ARRIVAL</title>
+</head>
+
+<body id="page1">
+
+<header>
+    	<div class="row-1">
+        	<div class="main">
+            	<div class="container_12">
+                	<div class="grid_12">
+                    	<nav>
+                            <ul class="menu">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a class="active" href="Arrival.html">Arrival</a></li>
+                                <li><a href="Departure.html">Departure</a></li>
+                                <li><a href="Record.php">Record</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                  </div>
+        </div>
+         <div class="row-2">
+         	<div class="main">
+            	<div class="container_12">
+                	<div class="grid_9">
+                    	<h1>
+                            <a class="logo" href="home.html">Pa<strong>R</strong>k</a>
+                            <span>With Mark</span>
+                        </h1>
+                    </div> 
+                <div class="clear"></div>
+            </div>
+            </div>
+        </div>
+</header>
+
+
+
+
+<div id="content">
+<div class="bg-top">
+<div class="bg-top-2">
+<div class="bg">
+<div class="bg-top-shadow">
+<div class="main">
+<div class="box">
+<div class="padding">
+<div class="container_12">
+<div class="wrapper">
+<div class="grid_12">
+<div class="indent-left">
+<h3 class="p2">Arrival Form</h3>
+
+
+<form id="contact-form" action="Arrival_Reciept.php" method="get">                    
+<fieldset>
+<div id="hello2">
+<label><span class="text-form">Vehicle Type</span></label>
+<label><span class="radio-button">Rikshaw</span>
+	<input type="radio" name="VehicleType" value="rikshaw" id="vehicleR" required></label>
+<label><span class="radio-button">Car</span>	
+    <input type="radio" name="VehicleType" value="car" id="vehicleC"></label>
+<label><span class="radio-button">Bus</span>	
+    <input type="radio" name="VehicleType" value="bus" id="vehicleB"></label>
+<label><span class="radio-button">Suzuki</span>	
+    <input type="radio" name="VehicleType" value="suzuki" id="vehicleS"></label>
+<label><span class="radio-button">Scooter</span>	
+    <input type="radio" name="VehicleType" value="scooter" id="vehicleSc"></label>
+</label>
+</div>
+<label><span class="text-form">Number Plate</span><input type="text" name="numberplate" id="numberplate" required pattern="[a-zA-z]{1,4}\s*[-]*[0-9]{0,2}\s*[-]*[0-9]{3,4}"></label>
+<label><span class="text-form">Color:</span><input type="color" name="color" id="color"></label>                                    
+<label><span class="text-form">Date and Time:</span>
+<input type="datetime-local" name="arrivaltime" id="arrivaltime" required></label>                                    
+<div class="buttons">
+<a class="button"><button type="submit" style="background-color:transparent; color:#FFF; border-width:0; text-transform:uppercase;letter-spacing:-1px">Done</button></a>
+<!--<a class="button"><input type="submit" value="DONE"></a>-->
+</div>
+</div>
+</fieldset>                             
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>	
+</div>
+</div>	
+</div>
+
+
+
+</body>
+</html>
